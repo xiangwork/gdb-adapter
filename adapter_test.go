@@ -18,9 +18,9 @@ import (
 	"log"
 	"testing"
 
-	"github.com/casbin/casbin/v2"
-	"github.com/casbin/casbin/v2/util"
-	_ "github.com/go-sql-driver/mysql"
+	"github.com/casbin/casbin/v3"
+	"github.com/casbin/casbin/v3/util"
+	_ "github.com/gogf/gf/contrib/drivers/mysql/v2"
 	_ "github.com/lib/pq"
 )
 
